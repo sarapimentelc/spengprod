@@ -31,25 +31,26 @@ num2 = int(input("\nDigite o segundo número: "))
 #Aqui são as condições de acordo com a escolha do usuário para poder dar o resultado
 if escolha == '1':
     print("\n")
-    print(num1, "+", num2, "=", add(num 1, num 2))
+    print(num1, "+", num2, "=", add(num1, num2))
     print("\n")
 
 elif escolha == '2':
     print("\n")
-    print(num 1, "-", num2, "=", substract(num1, num2))
+    print(num1, "-", num2, "=", substract(num1, num2))
     print("\n")
 
 elif escolha == '3':
     print("\n")
-    print(num 1, "-", num2, "=", multiply(num1, num2))
+    print(num1, "-", num2, "=", multiply(num1, num2))
     print("\n")
     
 elif escolha == '4':
     print("\n")
-    print(num 1, "-", num2, "=", divide(num1, num2))
+    print(num1, "-", num2, "=", divide(num1, num2))
     print("\n")
 
 #Caso o usuário não escolha nenhum número entre 1-4 aparece essa informação
 else:
     print("\nOpção Inválida!")
     
+
