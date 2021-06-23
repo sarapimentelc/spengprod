@@ -1,4 +1,4 @@
 # spengprod
-Apenas alguns dos códigos que estarei usando durante a graduação.
+Apenas alguns dos códigos que estarei usando durante a graduação de Engenharia de Produção
 
-Códigos livres para uso.
+Se tiver alguma duvida ou sugestão pode me contatar por e-mail: sarapcavalcante@gmail.com
