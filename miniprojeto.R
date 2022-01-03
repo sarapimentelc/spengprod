@@ -29,13 +29,13 @@ summary(dados_clientes)
 #Removendo a primeira coluna ID
 dados_clientes$ID <- NULL
 dim(dados_clientes)
-view(dados_clientes)
+View(dados_clientes)
 
 #Renomeando a coluna de classe
 colnames(dados_clientes)
 colnames(dados_clientes)[24] <- "inadimplente"
 colnames(dados_clientes)
-view(dados_clientes)
+View(dados_clientes)
 
 #Verificando valores ausentes e removendo do dataset
 sapply(dados_clientes, function(x) sum(is.na(x)))
