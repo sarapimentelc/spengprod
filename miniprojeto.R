@@ -11,7 +11,7 @@ library(reshape)
 library(randomForest)
 library(dplyr)
 library(e1071)
-library(car)
+library(car) 
 library(tourr)
 library(VIM)
 
@@ -24,7 +24,7 @@ dim(dados_clientes)
 str(dados_clientes)
 summary(dados_clientes)
 
-##Analise exploratória, limpeza e transformação##
+##Analise exploratÃ³ria, limpeza e transformaÃ§Ã£o##
 
 #Removendo a primeira coluna ID
 dados_clientes$ID <- NULL
@@ -47,7 +47,7 @@ dados_clientes <- na.omit(dados_clientes)
 #para fatores (categorias)
 str(dados_clientes)
 
-#Renomeando colunas categóricas
+#Renomeando colunas categÃ³ricas
 colnames(dados_clientes)
 colnames(dados_clientes)[2] <- "Genero"
 colnames(dados_clientes)[3] <- "Escolaridade"
